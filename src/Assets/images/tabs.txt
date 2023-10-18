@@ -1,0 +1,41 @@
+<Tabs className='table-tabs' defaultActiveKey={1} id="uncontrolled-tab-example">
+        <Tab eventKey={1} title="Mcqs">
+          <CustomTable tableTitles={deckTitles} dropData={dropData} tableItems={mcqsDeck}>
+            <CustomSelect selectClass="mt-4">
+              <option value="" disabled selected>Category</option>
+            </CustomSelect>
+            <CustomSelect selectClass="mt-4">
+              <option value="" disabled selected>Sub-Category</option>
+            </CustomSelect>
+            <CustomSelect selectClass="mt-4">
+              <option value="" disabled selected>Deck</option>
+            </CustomSelect>
+          </CustomTable>
+        </Tab>
+        <Tab eventKey={2} title="Yes/No Quiz">
+          <CustomTable tableTitles={deckTitles} dropData={dropData} tableItems={quizDeck}>
+            <CustomSelect selectClass="mt-4">
+              <option value="" disabled selected>Category</option>
+            </CustomSelect>
+            <CustomSelect selectClass="mt-4">
+              <option value="" disabled selected>Sub-Category</option>
+            </CustomSelect>
+            <CustomSelect selectClass="mt-4">
+              <option value="" disabled selected>Deck</option>
+            </CustomSelect>
+          </CustomTable>
+        </Tab>
+        <Tab eventKey={3} title="Pictorial Quiz">
+          <CustomTable tableTitles={deckTitles} dropData={dropData} tableItems={pictorialDeck}>
+            <CustomSelect selectClass="mt-4">
+              <option value="" disabled selected>Category</option>
+            </CustomSelect>
+            <CustomSelect selectClass="mt-4">
+              <option value="" disabled selected>Sub-Category</option>
+            </CustomSelect>
+            <CustomSelect selectClass="mt-4">
+              <option value="" disabled selected>Deck</option>
+            </CustomSelect>
+          </CustomTable>
+        </Tab>
+      </Tabs>

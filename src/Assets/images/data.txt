@@ -1,0 +1,49 @@
+export const tutorData = [
+    {
+      id: "1",
+      status: true,
+      image: "../../../Assets/images/profile-avatar.png",
+      name: "john.doe",
+      email: "john@email.com",
+      registered: "08/10/2022",
+      description:
+      "Lorem Ipsum is simply dummy text of printing & typesetting industry of printing & typesetting industry.",
+      
+      courses: [
+        {
+          id: 1,
+          courseTitle: "Arts",
+          totalStudent: "67",
+          addedOn: "12/12/2022",
+          status: "Completed",
+        },
+        {
+          id: 2,
+          courseTitle: "Arts & Design",
+          totalStudent: "67",
+          addedOn: "12/12/2022",
+          status: "Completed",
+        },
+        {
+          id: 3,
+          courseTitle: "Design",
+          totalStudent: "67",
+          addedOn: "12/12/2022",
+          status: "Completed",
+        },
+        {
+          id: 4,
+          courseTitle: "Programming",
+          totalStudent: "67",
+          addedOn: "12/12/2022",
+          status: "Completed",
+        },
+        {
+          id: 5,
+          courseTitle: "Painting",
+          totalStudent: "67",
+          addedOn: "12/12/2022",
+          status: "Completed",
+        }
+      ],
+    },

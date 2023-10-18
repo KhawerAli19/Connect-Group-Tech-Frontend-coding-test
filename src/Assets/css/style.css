@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap');
+
+/*----- General Css Start -----*/
+
+:root {
+    --primaryColor: #2D73E4;
+    --grayColor: #7F7F7F;
+    --redColor : #AF0B0B;
+    --blackColor : #1C1C1C ;
+}
+
+body {
+    font-family: 'Outfit', sans-serif;;
+
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    
+}
+.primaryColor {
+    color: var(--primaryColor) !important;
+}
+
+.grayColor {
+    color: var(--grayColor) !important;
+}
+.redColor {
+    color: var(--redColor) !important;
+}
+.black {
+    color: var(--blackColor) !important;
+}
+
+.notButton {
+    border: none;
+    background: none;
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+.classicToggle::after {
+    display: none;
+}
+.phera-text-color{
+    color: #666666;
+}
+.sub-title{
+    font-size:18px;
+    color: #171819;
+    font-weight: 700;
+}
+.date-color{
+    color: #6B7A9F;
+}
+.btn-close:focus {
+    box-shadow: none;
+}
+
+/*----- General Css End -----*/
+
+
+
+
+/*----- Modal Css Start -----*/
+
+.closeButton {
+    font-size: 16px;
+    color: #231F20;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    outline: none;
+    margin: 0.5rem;
+    margin-left: auto;
+    outline: none;
+    background: none;
+}
+
+.modalImage {
+    width: 110px;
+    /* margin-bottom: 1rem; */
+}
+
+.modalContent {
+    margin: 1rem 0;
+}
+
+.modalHeading {
+    font-size: 16px;
+    font-weight: 500;
+    width: 70%;
+    margin: 0 auto;
+    margin-bottom: 15px;
+}
+.greybutton:hover {
+    background: transparent;
+    border: 1px solid var(--grayColor);
+    color: #000;
+}
+
+.hover-grey:hover {
+    color: #000;
+    border: 1px solid #fff;
+    background: #fff;
+}
+/*----- Modal Css End -----*/
+
+
+.dashCard {
+    background: #fff;
+    border-radius: 0.5rem;
+    padding: 1rem 2rem;
+}
+
+.mainTitle {
+    font-size: 28px;
+    font-weight: 800;
+}
+
+.profileImage img {
+    width: 90px;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 99px;
+}
+
+.statusBadge {
+    font-size: 18px;
+}
+.statusBadgeActive {
+    color: #13F100;
+}
+.statusBadgeInactive {
+    color: var(--redColor);
+}
+.secondaryLabel {
+    font-size: 15px;
+    font-weight: 700;
+    color: #A2A2A2;
+    margin-bottom: 0.2rem;
+}
+.secondaryText {
+    font-size: 14px;
+    font-weight: 400;
+    color: #0B0B17;
+    margin-bottom: 0.2rem;
+}
+.text-color{
+    color: var(--primaryColor);
+}
+@media only screen and (max-width: 575px){
+    .dashCard {
+        padding: 1rem 1rem;
+    }
+}
+
+
+
+
+
+

@@ -1,0 +1,65 @@
+.authBg {
+    background: url('../../Assets/images/authBg.png');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.authBox {
+    background-color: #fff;
+    border-radius: 0.5rem;
+}
+
+.authImage img {
+    width: 100%;
+    max-width: 100%;
+}
+
+.authFormWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.authForm {
+    border-radius: 0px;
+    padding: 2rem 3rem;
+    width: 100%;
+}
+
+.authLogo {
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.authLogo img {
+    width: 160px;
+    max-width: 100%;
+}
+
+.authFormHeader {
+    text-align: center;
+    margin: 2rem 0;
+}
+
+.authTitle {
+    font-size: 28px;
+    font-weight: 700;
+    color: var( --blackColor);
+}
+.authPara {
+    font-size: 16px;
+    font-weight: 600;
+    color: #999;
+    width: 70%;
+    margin: 0 auto;
+}
+@media only screen and (max-width: 575px){
+    .authForm {
+        padding: 2rem 1rem;
+    }
+}
